@@ -27,6 +27,12 @@ h1 {
   margin: 0 0 8px;
 }
 
+.section-title {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
 .subtitle {
   margin: 0 0 18px;
   color: #97a6ba;
@@ -77,7 +83,35 @@ h1 {
   color: #5eead4;
 }
 
-footer {
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 10px;
+  margin: 24px 0 12px;
+  padding-top: 18px;
+  border-top: 1px solid #22344f;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #bae6fd;
+}
+
+.footer-links-sep {
+  color: #475569;
+  user-select: none;
+}
+
+.footer-status {
   color: #8ea0ba;
   font-size: 12px;
+  text-align: center;
 }

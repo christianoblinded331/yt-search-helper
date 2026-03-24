@@ -1,6 +1,6 @@
-# Search Flow Assistant
+# YT Search Helper
 
-Search Flow Assistant is an independent browser extension that normalizes
+YT Search Helper is an independent browser extension that normalizes
 YouTube search navigation in Safari/Chromium browsers and reduces redirect
 noise.
 
@@ -25,7 +25,8 @@ Google.
 
 ## Project layout
 
-- `src/worker/main.ts` - service worker entry
+- `src/worker/serviceWorkerEntry.ts` - service worker entry
+- `src/inject/contentEntry.ts` - content script entry (must stay distinct from the worker filename for CRXJS)
 - `src/inject/pageObserver.ts` - page-level controller
 - `src/inject/urlState.ts` - URL parsing/normalization input
 - `src/inject/correctionEngine.ts` - pure decision engine

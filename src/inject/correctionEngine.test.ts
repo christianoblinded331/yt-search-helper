@@ -1,13 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { resolveSearchState } from "./correctionEngine";
 import type { ParsedUrlState, UserPreferences } from "../shared/contracts";
+import { DEFAULT_PREFERENCES } from "../shared/contracts";
 
-const baselinePrefs: UserPreferences = {
-  enabled: true,
-  correctionMode: "balanced",
-  debugOverlay: false,
-  lastUpdated: Date.now(),
-};
+const baselinePrefs: UserPreferences = { ...DEFAULT_PREFERENCES };
 
 function makeState(partial: Partial<ParsedUrlState>): ParsedUrlState {
   return {
@@ -43,6 +39,14 @@ describe("resolveSearchState", () => {
     const decision = resolveSearchState(makeState({}), {
       ...baselinePrefs,
       enabled: false,
+    });
+    expect(decision.shouldRedirect).toBe(false);
+  });
+
+  it("skips redirects when URL tuning disabled", () => {
+    const decision = resolveSearchState(makeState({}), {
+      ...baselinePrefs,
+      urlTuningEnabled: false,
     });
     expect(decision.shouldRedirect).toBe(false);
   });

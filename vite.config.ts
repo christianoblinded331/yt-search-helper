@@ -5,4 +5,7 @@ import manifest from "./src/manifest.ts";
 
 export default defineConfig({
   plugins: [react(), crx({ manifest })],
+  test: {
+    environment: "jsdom",
+  },
 });

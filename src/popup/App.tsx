@@ -16,7 +16,7 @@ export default function PopupApp() {
 
   return (
     <main className="popup">
-      <h2>Search Flow Assistant</h2>
+      <h2>YT Search Helper</h2>
       <label className="toggle">
         <span>Correction enabled</span>
         <input

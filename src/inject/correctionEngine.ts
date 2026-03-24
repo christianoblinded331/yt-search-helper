@@ -33,7 +33,7 @@ export function resolveSearchState(
   state: ParsedUrlState,
   preferences: UserPreferences,
 ): RedirectDecision {
-  if (!preferences.enabled || !state.searchTerm) {
+  if (!preferences.enabled || !preferences.urlTuningEnabled || !state.searchTerm) {
     return { shouldRedirect: false, targetUrl: null, reasonCode: "none" };
   }
 
